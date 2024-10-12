@@ -38,7 +38,7 @@ Cons:
 
 Ideas of different templating language & servers
 -----
-PHP Developer in the end will have 2 ways to develop widget:
+PHP Developer in the end can have 2 ways to develop widget:
 
 - Most templating only, not much script: template (eg. twig)
 - Templating + script: use react for script & rendering (not suggest to use template + script, they can just use graphql for data + client react )
