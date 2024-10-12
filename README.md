@@ -11,9 +11,9 @@ Main goal is to make it as a PHP project's "engine for visual editing", eg. Make
 - Support making style in config/js config
 
 
-Approach 1: Remote
+Approach 1: remote
 ------
-Run a nextjs server behind.
+Run a nextjs server behind (mostly on localhost and proxy _nextjs to client).
 
 Pros: 
 Matual platforms
@@ -24,7 +24,7 @@ Cons:
 
 
 
-Approach 2: Native
+Approach 2: native
 ------
 Use php_v8js to run react for both server and client.
 
