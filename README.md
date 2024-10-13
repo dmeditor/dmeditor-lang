@@ -1,6 +1,6 @@
 # dmeditor-lang
 
-Experiment to integrate DM Editor with languages, PHP as main.
+Experiment to integrating DM Editor with languages, PHP as main.
 
 Main goal is to make it as a PHP project's "engine for visual editing", with use cases like making compaign page visually. To achieve that, below should be supported:
 
