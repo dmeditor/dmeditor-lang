@@ -27,7 +27,9 @@ Cons:
 
 Approach 2: native
 ------
-Use php_v8js to run react for both server and client.
+Use php_v8js to run react for both server and client. Other languages Python: pyv8, Java: j2v8, Go: v8go. 
+
+*(PS. seems in Python community they prefere Approach 1. eg. https://github.com/markfinger/python-react)*
 
 Props:
 Native invoking - php invoking js and js invoking php (and template)
