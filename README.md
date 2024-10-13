@@ -14,10 +14,10 @@ Main goal is to make it as a PHP project's "engine for visual editing", with use
 
 Approach 1: remote
 ------
-Run a nextjs server behind (mostly on localhost and proxy _nextjs to client).
+Run a nextjs server behind (mostly on localhost and proxy nextjs to client).
 
 Pros: 
-Matual platforms
+Mature platforms
 
 Cons: 
 1) extra server to run
