@@ -16,8 +16,7 @@ Approach 1: remote
 ------
 Run a nextjs server behind (mostly on localhost and proxy nextjs to client).
 
-Pros: 
-Mature platforms
+Pros: mature platforms
 
 Cons: 
 1) Need extra server to run
@@ -31,8 +30,7 @@ Use php_v8js to run react for both server and client. Other languages Python: py
 
 *(PS. seems in Python community they prefere Approach 1. eg. https://github.com/markfinger/python-react)*
 
-Props:
-Native invoking - php invoking js and js invoking php (and template)
+Props: native invoking - php invoking js and js invoking php (and template)
 
 Cons: 
 1) Complex set up
