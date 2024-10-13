@@ -51,7 +51,7 @@ PHP developer in the end can have 2 ways to develop widget:
 - Case where it's mostly static template, not much script: template (eg. twig).
 - Case where it's both much templating and script: use react for script & rendering (not suggest to use template + script (jquery? or another react?) as react widget can be directly used).
 
-For server choosing suggestion:
+Should use php server or nodejs server?
 
 - Case where it's most of php layout / page template: use php server.
-- Case where it's most of widget templates (doesn't matter php template for react): use nodejs server (eg. nextjs).
+- Case where it's most of widget templates (doesn't matter php template for react): better to use nodejs server (eg. nextjs).
