@@ -18,7 +18,7 @@ Pros: mature platforms
 
 Cons:
 
-1. Need extra server to run
+1. Need extra server to run.
 2. request to nextjs (embed) and request back (for widget rendering)? - maybe it's not a big deal as long as it's stable and easy to set up.
 
 ## Approach 2: native
@@ -31,20 +31,20 @@ Props: native invoking - php invoking js and js invoking php (and template)
 
 Cons:
 
-1. Complex set up
-2. library for rendering js in PHP (both server and client) is not proved reliable(and up to php 8 version)
+1. Complex set up.
+2. library for rendering js in PHP (both server and client) is not proved reliable(and up to php 8 version).
 
 ## Some ideas about using it in project
 
 PHP Developer in the end can have 2 ways to develop widget:
 
-- Case where it's mostly static template, not much script: template (eg. twig)
-- Case where it's both much templating and script: use react for script & rendering (not suggest to use template + script (jquery? or another react?) as react widget can be directly used)
+- Case where it's mostly static template, not much script: template (eg. twig).
+- Case where it's both much templating and script: use react for script & rendering (not suggest to use template + script (jquery? or another react?) as react widget can be directly used).
 
 For server choosing suggestion:
 
-- Case where it's most of php layout / page template: use php server
-- Case where it's most of widget templates (doesn't matter php template for react): use nodejs server (eg. nextjs)
+- Case where it's most of php layout / page template: use php server.
+- Case where it's most of widget templates (doesn't matter php template for react): use nodejs server (eg. nextjs).
 
 ## Implementation
 
