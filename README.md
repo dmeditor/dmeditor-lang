@@ -20,7 +20,7 @@ Pros:
 Mature platforms
 
 Cons: 
-1) extra server to run
+1) Need extra server to run
 2) request to nextjs (embed) and request back (for widget rendering)? - maybe it's not a big deal as long as it's stable and wrapped as configure.
 
 
