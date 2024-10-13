@@ -34,6 +34,15 @@ Cons:
 1. Complex to set up.
 2. Libraries for rendering js in PHP (both server and client) is not proved reliable(and up to php 8 version).
 
+
+## Implementation
+
+Sub projects:
+
+- [dmeditor-lang](./dmeditor-lang) (js library): a dmeditor widget wrapper which loads PHP templates as widget (with styles parameter), define styles by config.
+- [php](./php) (php library, symfony vendor): php wrapper for invoking DM Editor View, provding template and invoking widget rendering (for edit view).
+- [sample](./sample): sample project of using php lib & dmeditor-lang.
+
 ## Some ideas about using it in project
 
 PHP Developer in the end can have 2 ways to develop widget:
@@ -45,11 +54,3 @@ For server choosing suggestion:
 
 - Case where it's most of php layout / page template: use php server.
 - Case where it's most of widget templates (doesn't matter php template for react): use nodejs server (eg. nextjs).
-
-## Implementation
-
-Sub projects:
-
-- [dmeditor-lang](./dmeditor-lang)(js library): a dmeditor widget wrapper which loads PHP templates as widget (with styles parameter), define styles by config.
-- [php](./php) (php library, symfony vendor): php wrapper for invoking DM Editor View, provding template and invoking widget rendering (for edit view).
-- [sample](./sample): sample project of using php lib & dmeditor-lang.
