@@ -44,14 +44,9 @@ Sub projects:
 - [php](./php) (php library, symfony vendor): php wrapper for invoking DM Editor View, provding template and invoking widget rendering (for edit view).
 - [sample](./sample): sample project of using php lib & dmeditor-lang.
 
-## Some ideas about using it in project
+## Further ideas about usage in project
 
 PHP developer in the end can have 2 ways to develop widget:
 
 - Case where it's mostly static template, not much script: template (eg. twig).
 - Case where it's both much templating and script: use react for script & rendering (not suggest to use template + script (jquery? or another react?) as react widget can be directly used).
-
-Should use php server or nodejs server?
-
-- Case where it's most of php layout / page template: use php server.
-- Case where it's most of widget templates (doesn't matter php template for react): better to use nodejs server (eg. nextjs).
