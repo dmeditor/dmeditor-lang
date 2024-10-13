@@ -46,7 +46,7 @@ For server choosing suggestion:
 - Most of php layout / page template: use php server
 - Most of widget templates (doesn't matter php template for react): use nodejs server (eg. nextjs)
 
-## Implemtation
+## Implementation
 
 Sub projects:
 
