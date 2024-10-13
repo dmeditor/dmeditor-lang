@@ -1,5 +1,5 @@
 # dmeditor-lang
-DM Editor intergration with language, PHP as first sample
+DM Editor intergration with language, PHP as main.
 
 
 This is the experiment to integrate DM Editor with PHP, typically PHP CMSes. 
