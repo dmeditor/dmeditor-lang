@@ -39,7 +39,7 @@ Cons:
 
 Sub projects:
 
-- [dmeditor-lang](./dmeditor-lang)(js library): a dmeditor widget wrapper which loads PHP templates as widget (with styles parameter), define styles by config.
+- [dmeditor-lang](./dmeditor-lang) (js library): a dmeditor widget wrapper which loads PHP templates as widget (with styles parameter), define styles by config.
 - [php](./php) (php library, symfony vendor): php wrapper for invoking DM Editor View, provding template and invoking widget rendering (for edit view).
 - [sample](./sample): sample project of using php lib & dmeditor-lang.
 
