@@ -10,7 +10,7 @@ Main goal is to make it as a PHP project's "service for visual editing", with us
 - [not here but in solution] a place to launch dmeditor & save.
 - [not here but in solution] asset integration, including images, files, links, data source (future).
 
-## Approach 1: remote (working on this approach for now)
+## Approach 1: remote
 
 Run a nextjs server behind (mostly on localhost and proxy nextjs to client).
 
@@ -20,6 +20,8 @@ Cons:
 
 1. Need extra server to run.
 2. request to nextjs (embed) and request back (for widget rendering)? - maybe it's not a big deal as long as it's stable and easy to set up.
+
+_(working on this approach for now)_
 
 ## Approach 2: native
 
