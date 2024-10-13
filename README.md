@@ -8,7 +8,7 @@ Main goal is to make it as a PHP project's "engine for visual editing", with use
 
 - Allow PHP (or template) to include DM Editor.
 - Support widget making in php template(eg. twig), which is loaded both in front site and admin editing.
-- Support making style in config/js config
+- Support defining style in config/js config
 - [not here but in solution] a place to launch dmeditor & save
 - [not here but in solution] asset integration, including images, files, links, data source (future).
 
