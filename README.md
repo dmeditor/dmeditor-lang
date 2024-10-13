@@ -46,7 +46,7 @@ Sub projects:
 
 ## Some ideas about using it in project
 
-PHP Developer in the end can have 2 ways to develop widget:
+PHP developer in the end can have 2 ways to develop widget:
 
 - Case where it's mostly static template, not much script: template (eg. twig).
 - Case where it's both much templating and script: use react for script & rendering (not suggest to use template + script (jquery? or another react?) as react widget can be directly used).
