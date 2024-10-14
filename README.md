@@ -2,7 +2,7 @@
 
 Prototype of integrating DM Editor with languages, PHP as main.
 
-Main goal is to make it as a PHP project's "service / library for visual editing", with use cases like making compaign page visually. To achieve that, below should be supported:
+Main goal is to make it as a PHP project's "service / library for visual editing and rendering", with use cases like making compaign page visually. To achieve that, below should be supported:
 
 - Allow PHP (or template) to render DM Editor.
 - Allow PHP (or template) to make widget, which is loaded both in front site and admin editing.
