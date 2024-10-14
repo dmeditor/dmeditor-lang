@@ -49,4 +49,4 @@ Sub folders:
 PHP developer in the end can have 2 ways to develop widget:
 
 - For case where it's mostly static template, not much script: template (eg. twig).
-- For case where it's some templating and more script: recommand to use react for both scripting and rendering, as using template + another react inside template is unnecessary (still using JQuery? then use first way :)).
+- For case where it's some templating and more script: recommand to use react for both scripting and rendering(JSX), as using template + another react inside template is unnecessary (still using JQuery? then use first way :)).
