@@ -2,7 +2,7 @@
 
 Prototype of integrating DM Editor with languages, PHP as main.
 
-The benefit will be, being able to combine flexibility of PHP template (and database access) and DM Editor's visual widget (eg. interactive widget like tabs, collapsable text, pop up and more) and there will be only one render implementation for both editing and viewing and they look identical.
+The benefit will be, being able to combine flexibility of PHP template (and database access) and DM Editor's visual widget (eg. interactive widget like tabs, collapsable text, pop up and more) and there will be only one render implementation for both editing and viewing.
 
 To achieve that, below should be supported:
 
