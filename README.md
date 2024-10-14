@@ -5,7 +5,7 @@ Prototype of integrating DM Editor with languages, PHP as main.
 Main goal is to make it as a PHP project's "service / library for visual editing", with use cases like making compaign page visually. To achieve that, below should be supported:
 
 - Allow PHP (or template) to render DM Editor.
-- Support widget making in php template(eg. twig), which is loaded both in front site and admin editing.
+- Allow PHP (or template) to make widget, which is loaded both in front site and admin editing.
 - Support defining styles in config/js config.
 - [not here but in solution] a place to launch dmeditor & save.
 - [not here but in solution] asset integration, including images, files, links, data source (future).
