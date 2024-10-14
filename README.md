@@ -34,7 +34,7 @@ Props: native invoking - php invoking js and js invoking php (and template)
 Cons:
 
 1. Complex to set up.
-2. Libraries for rendering js in PHP (both server and client) is not proved reliable(and up to php 8 version).
+2. Libraries for rendering js in PHP (both server and client) is not proved reliable and maintained (eg. https://github.com/Limenius/ReactRenderer).
 
 ## Implementation
 
